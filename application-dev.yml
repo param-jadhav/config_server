@@ -1,5 +1,5 @@
 welcome:
-  message: welcome- dev local environment is working fine..!!
+  message: welcome- dev local environment is working expected..!!
  #Port
 server:
   port: 9091
