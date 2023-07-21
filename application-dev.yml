@@ -1,0 +1,19 @@
+welcome:
+  message: welcome- dev local environment is working..!!
+ #Port
+server:
+  port: 9091
+#Database connection
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dev_db
+    username: root
+    password: param
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#Loggin
+#logging:
+ # file: SSAWeb-App.log
+  #level:
+   # root: INFO
+    #com.usa.ri.gov.ies: DEBUG
