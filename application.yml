@@ -1,0 +1,24 @@
+welcome:
+  message: welcome- default environment is working..!!
+
+server:
+  port: 8085
+  
+#Database connection
+
+spring:
+  application:
+    name: UserActivityApp
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/dev_db
+    username: root
+    password: param
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#spring:
+ # profiles:
+#    active: dev
+  #mvc:
+   # view:
+    #  prefix: /views/
+     # suffix: .jsp
