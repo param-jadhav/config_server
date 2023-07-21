@@ -1,0 +1,13 @@
+welcome:
+  message: welcome- test local environment is working..!!
+ #Port
+server:
+  port: 9092
+#Database connection
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dev_db
+    username: root
+    password: param
+    driver-class-name: com.mysql.cj.jdbc.Driver
